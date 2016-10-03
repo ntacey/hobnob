@@ -1,0 +1,105 @@
+body {
+  background: #D8D9DE;
+}
+
+#message-input-container {
+  position: absolute;
+  bottom: 30px;
+  left: 20%;
+  margin-left: -50px;
+  width: 70%
+}
+
+#message-input {
+  background: #FFF;
+  line-height: 1.2rem;
+  border: 2px solid;
+  position: absolute;
+}
+
+#button-container {
+  position: absolute;
+  bottom: 45px;
+  left: 90%;
+  margin-left: -50px;
+  width: 70%;
+}
+
+#message-display {
+  position: absolute;
+  color: black;
+  bottom: 90px;
+  width: 80%;
+  height: 100%;
+  left: 20%;
+  margin-left: -5%;
+}
+
+#message-display span {
+  position: absolute;
+  left: 3%;
+  font-family:  "Cyrillic";
+  font-size: 30px;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    width: 15%;
+    background-color: #6E7889; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #F1F1F1;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #393B45;
+}
+
+/* color scheme:
+    #393B45 -- darker gray
+    #6E7889 -- blueish gray
+    #D8D9DE -- lighter gray
+    #F3B54A -- gold
+    #584848 -- maroon
+
+    #FF8C1A -- a darker gold 
+*/
+
+/* old sidebar
+#sidebar-wrapper {
+  margin-left: -150px;
+  left: 70px;
+  width: 19%;
+  background: #6E7889;
+  position: fixed;
+  height: 100%;
+  z-index: 10000;
+  transition: all .4s ease 0s;
+  color: azure;
+}
+
+.sidebar-nav {
+  display: block;
+  float: left;
+  width: 150px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+*/

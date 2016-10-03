@@ -1,0 +1,20 @@
+{
+  "name": "sms",
+  "version": "1.0.0",
+  "description": "sms service for hobnob",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/burritoSlayer/hobnob/services/sms"
+  },
+  "author": "Nick Tacey",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.5.4",
+    "express": "^4.14.0",
+    "twilio": "^2.9.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "extensions": {
+    "ivogabe.icons": true,
+    "brackets-beautify": true,
+    "edc.brackets-snippets": true,
+    "demonmhon.brackets-working-file-tab": true,
+    "delkos": true,
+    "milosh86.extensions-bulk-installer": false,
+    "adobe.brackets.extract": true,
+    "globexdesigns.brackets-jscs": true,
+    "camden.jshint": true,
+    "mikaeljorhult.brackets-todo": true
+  }
+}
